@@ -11,10 +11,14 @@ if db.is_connected:
     print("Databae is connected")
     
     cursor = db.cursor()
-    # Created database Peple
-    cursor.execute(
-        "CREATE TABLE People (Name varchar(50), Age int,Location varchar(50))"
-    )
+    ## Created database Peple
+    # cursor.execute(
+    #     "CREATE TABLE People (Name varchar(50), Age int,Location varchar(50))"
+    # )
+    
+    ## Added 2 items into table
+    
+    
     
 else:
     print("Not Connected")
