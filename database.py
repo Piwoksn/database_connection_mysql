@@ -17,7 +17,9 @@ if db.is_connected:
     # )
     
     ## Added 2 items into table
-    
+    cursor.execute(
+        "INSERT INTO mccoy.People values ('Noble Piwoks', 29, 'Abuja'), ('Stella Omeke', 45, 'Port Harcourt');"
+    )
     
     
 else:
