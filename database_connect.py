@@ -2,9 +2,9 @@ import mysql.connector as mysql
 
 db = mysql.connect(
     host="localhost",
-    database="mccoy",  # Use 'database' instead of 'db'
     user="root",
-    passwd=input("Please Enter Password: ")
+    passwd=input("Please Enter Password: "),
+    database="mccoy",  # Use 'database' instead of 'db'
 )
 
 if db.is_connected():

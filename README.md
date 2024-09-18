@@ -17,3 +17,7 @@ modifying_or_updating_db.py
 ## Deleting data from mysql
 
 deleting_from_mysql.py
+
+## CRUD
+
+Performed CRUD Operation: Create, Read, Update, Delete
