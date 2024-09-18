@@ -13,3 +13,7 @@ fetching_data_from_db.py
 ## Update or Modify data in db
 
 modifying_or_updating_db.py
+
+## Deleting data from mysql
+
+deleting_from_mysql.py
