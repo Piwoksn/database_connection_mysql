@@ -16,7 +16,7 @@ if db.is_connected():
         # Insert data into the table
         cursor.execute(
             "INSERT INTO People (Name, Age, Location) VALUES (%s, %s, %s), (%s, %s, %s);",
-            ('Richmond Piwoks', 29, 'Abuja', 'Amaka Omeke', 45, 'Port Harcourt')
+            ('Justice Piwoks', 31, 'Port harcourt', 'Surely Piwoks', 25, 'Delta')
         )
         db.commit()  # Commit the transaction
         print("Data inserted successfully")
