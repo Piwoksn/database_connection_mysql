@@ -18,7 +18,7 @@ if db.is_connected:
     
     ## Added 2 items into table
     cursor.execute(
-        "INSERT INTO mccoy.People values ('Richmond Piwoks', 29, 'Abuja'), ('Amaka Omeke', 45, 'Port Harcourt');"
+        "INSERT INTO mccoy.People (Name, Age, Location) values ('Richmond Piwoks', 29, 'Abuja'), ('Amaka Omeke', 45, 'Port Harcourt');"
     )
     cursor.close()
     db.close()
